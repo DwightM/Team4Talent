@@ -1,0 +1,20 @@
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\bin\Debug\Quartz.ConsoleSpike.exe
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\bin\Debug\Quartz.ConsoleSpike.pdb
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\bin\Debug\Quartz.dll
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\bin\Debug\C5.dll
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\bin\Debug\Common.Logging.dll
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\bin\Debug\Quartz.pdb
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\bin\Debug\Quartz.xml
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\obj\x86\Debug\Quartz.ConsoleSpike.exe
+C:\_Private\Projects\Team4Talent\DDS\spike\Quartz.Console\obj\x86\Debug\Quartz.ConsoleSpike.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\bin\Debug\Quartz.ConsoleSpike.exe
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\bin\Debug\Quartz.ConsoleSpike.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\bin\Debug\Quartz.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\bin\Debug\C5.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\bin\Debug\Common.Logging.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\bin\Debug\Quartz.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\bin\Debug\Quartz.xml
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\obj\x86\Debug\Quartz.ConsoleSpike.exe
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\spike\Quartz.Console\obj\x86\Debug\Quartz.ConsoleSpike.pdb

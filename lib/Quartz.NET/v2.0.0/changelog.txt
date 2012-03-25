@@ -1,0 +1,393 @@
+QUARTZ.NET CHANGELOG
+==============================
+http://www.quartz-scheduler.net
+
+
+Release 2.0 beta 2, Dec 31, 2011
+--------------------------------
+
+This release contains some bug fixes and some compile time breaking changes.
+
+BREAKING CHANGES (since 2.0 beta 1)
+
+* DateBuilder TranslateTime method was removed as it's better done with TimeZoneInfo's ConvertTime
+* DateBuilder.IntervalUnit enumeration was replaced by usage of generic IntervalUnit enumeration in root namespace
+* DateBuilder now creates all dates in local time zone by default
+* ICommandAccessor was renamed IDbAccessor, this interface should normally not be used from client code
+* DailyTimeIntervalTrigger was changed to correctly assume start and end times are UTC times (calculation is based on local time)
+* DailyTimeIntervalTrigger properties StartTimeOfDayUtc and EndTimeOfDayUtc were renamed to StartTimeOfDay and EndTimeOfDay as they are local times without UTC notion
+
+FIXES
+
+Bug
+
+    * DailyTimeIntervalTriggerPersistenceDelegate does not store weekdays in correct format
+    * DisallowConcurrentExecution decorated triggers not being updated after TriggerCompleted
+	* DailyTimeIntervalTrigger does not work as expected
+
+Improvement
+
+	* ADO.NET job store: force UTC ticks when storing datetimes
+
+Release 2.0 beta 1, October 2, 2011
+-----------------------------------
+
+BREAKING CHANGES
+
+* .NET 1.1 and 2.0 support is dropped
+* Quartz.NET now needs .NET version 3.5 SP1 or later to run due to use of new language features and classes
+* Many public interface methods have changed from returning arrays to generic IList or ISet interfaces
+* TriggerBuilder implementations and JobBuilder should now be used to create different job and trigger definitions
+* Introduced IJobDetail, IContrigger, ISimpleTrigger, ICalendarIntervalTrigger have far less members and especially mutators
+* When C5 collections were introduced as set-based implementation provider, ISet and ISortedSet interfaces were narrowed (IList inheritance removed)
+* string triggerName, string triggerGroup are now encapsulated in TriggerKey (has the same fields) 
+* string jobName, string jobGroup are now encapsulated in JobKey (has the same fields)
+* JobInitializationPlugin is now deprecated in favor of XMLSchedulingDataProcessorPlugin, JobInitializationPlugin no longer included
+* Microsoft's Oracle drivers are no longer supported, use 10g or 11g ODP.NET drivers
+* Database schema has changed, you need to convert your 1.x schema to new version, sample migration script available in database folder
+
+OTHER NOTABLE CHANGES
+
+* XMLSchedulingDataProcessorPlugin uses new XML format that allows more control over triggers but no support for calendars
+* There are extension methods for the new trigger builder that allow you to set trigger specifics
+* Client Profile is now supported and there are separate DLLs for client profile
+* PropertySettingJobFactory is now the default JobFactory
+
+
+
+Release 1.0.3, Aug 22, 2010
+-------------------------------
+
+Bug
+
+    * [QRTZNET-190] - Most outstanding misfired trigger should be first to be updated
+    * [QRTZNET-192] - Trigger Listeners Having Misfire Handler Called Twice
+    * [QRTZNET-194] - Select Trigger method for Cron Triggers does not set the Priority property
+    * [QRTZNET-217] - Triggers fail to obey millisecond precision when setting start time
+
+Improvement
+
+    * [QRTZNET-219] - PostgreSQL database scripts should create database indexes
+    * [QRTZNET-220] - CronExpression should check that the 'L' field's value is between 1 and 7
+
+
+
+Release 1.0.2, Dec 12, 2009
+-------------------------------
+
+Bug
+
+    * [QRTZNET-163] - quartz.jobStore.clustered mentioned wrongly as quartz.jobStore.isClustered
+    * [QRTZNET-169] - OracleDelegate uses invalid keyword 'rowcount' instead of correct 'rownum'
+    * [QRTZNET-174] - Rollback on a closed connection in JobStoreSupport.DoCheckin
+    * [QRTZNET-175] - Race condition in SimpleThreadPool
+    * [QRTZNET-176] - LW in cron-expression (last weekday of month) flagged as invalid by job_scheduling_data.xsd
+    * [QRTZNET-180] - Possible hang in SimpleThreadPool.Shutdown(true)
+    * [QRTZNET-181] - Quartz Fills up log file when database connection goes down
+    * [QRTZNET-188] - AdoJobStore cannot delete jobs if job type cannot be loaded
+
+Improvement
+
+    * [QRTZNET-165] - in QuartzServer the 'scheduler' field is defined as private - that makes inheriting the QuartzServer class problematic
+    * [QRTZNET-173] - Convenience Constructors for JobDetail and Trigger Classes
+
+Task
+
+    * [QRTZNET-178] - Please keep the generic job.xml in the download package for all tags that we can use
+
+
+
+Release 1.0.1, May 16, 2009
+-------------------------------
+
+Bug
+
+    * [QRTZNET-145] - NthIncludedDayTrigger.ComputeFirstFireTimeUtc fails if no start time given
+    * [QRTZNET-149] - CronExpression.GetTimeAfter(DateTime afterTimeUtc) does not account for day increment over days in month
+    * [QRTZNET-150] - LoggingTriggerHistoryPlugin.TriggerMisfired writes incorrect message
+    * [QRTZNET-151] - XML configuration fails with jobs that have no triggers
+    * [QRTZNET-152] - Nearest weekday 'W' expression does not work correctly in CronTrigger
+    * [QRTZNET-153] - JobInitializationPlugin overwrite-existing-jobs parameter ignored
+    * [QRTZNET-155] - JobSchedulingDataProcessor does not set Trigger description
+    * [QRTZNET-156] - JobDetail.RemoveJobListener throws InvalidCastException
+    * [QRTZNET-157] - JobDetail.Equals(object) is implemented wrong
+    * [QRTZNET-159] - Records in QRTZ_TRIGGER_LISTENERS table are deleted when trigger is paused and resumed
+    * [QRTZNET-160] - AcquireNextTrigger executing on managed Tx Connection when using JobStoreCMT and configured not to acquire triggers within lock
+    * [QRTZNET-161] - TimeZoneInfo's StandardName is incorrectly saved to database instead of Id
+
+Improvement
+
+    * [QRTZNET-142] - Xml Configuration support for Trigger Listeners
+    * [QRTZNET-144] - Locking around AcquireNextTrigger no longer necessary for AdoJobStore
+    * [QRTZNET-146] - Introduce result limiting ADO.NET delegates for better performance
+    * [QRTZNET-154] - Support for setting the working directory in NativeJob
+
+New Feature
+
+    * [QRTZNET-148] - Add SQL Server Compact Edition support for AdoJobStore
+
+
+
+
+Release 1.0, Nov 6, 2008
+-------------------------------
+
+Bug
+
+    * [QRTZNET-125] - TimeZones are not handled correctly when reading XML job configuration
+    * [QRTZNET-127] - CronExpression does not handle custom TimeZone correctly in GetTimeAfter in 2.0 build
+    * [QRTZNET-128] - RemoteScheduler does not delegate IsJobGroupPaused and IsTriggerGroupPaused to remote scheduler
+    * [QRTZNET-131] - NthIncludeDayTrigger doesn't utilize custom TimeZone correctly
+    * [QRTZNET-132] - NullReferenceException when computing next fire time for misfired triggers
+    * [QRTZNET-133] - SimpleThreadPool.CreateWorkerThreads does not respect threadCount parameter value
+    * [QRTZNET-136] - NativeJob is broken
+
+Improvement
+
+    * [QRTZNET-126] - Apply AllowPartiallyTrustedCallersAttribute to DLL
+
+New Feature
+
+    * [QRTZNET-129] - Support for connectionStrings section in App.config
+    * [QRTZNET-134] - New pool implementation -- ZeroSizeThreadPool
+    * [QRTZNET-135] - Support job-data-map for triggers in XML
+
+
+Release 1.0 RC 3, Sep 6, 2008
+-------------------------------
+
+Bug
+
+    * [QRTZNET-91] - JobSchedulingDataProcessor does not handle job listeners from XML correctly
+    * [QRTZNET-115] - AnnualCalendar isDayExcluded doesn't take the basecalendar into account
+    * [QRTZNET-116] - Error saving recovery trigger during cluster recovery for volatile jobs
+    * [QRTZNET-117] - CronTrigger may return a firing time not included in the calender
+    * [QRTZNET-118] - TimeZone setting lost when CronExpressionString is set
+    * [QRTZNET-119] - Port Java Quartz's threading fixes that help with multi-core machines
+    * [QRTZNET-121] - Remoting Scheduler - re-start scheduler throws remoting binding error.
+    * [QRTZNET-122] - Triggering a job remotely often does not fire the job
+    * [QRTZNET-123] - QuartzSchedulerThread Log property is null.
+    * [QRTZNET-124] - SendMailJob throws a NullReferenceException
+
+Task
+
+    * [QRTZNET-113] - Include server source in distribution
+
+
+Release 1.0 RC 2, Aug 6, 2008
+-------------------------------
+
+Improvement
+
+    * [QRTZNET-114] - Express intervals and durations using TimeSpan instead of ints and longs
+
+Breaking changes:
+
+	* Public API has changed with the introduction of TimeSpan usage,
+	  changes should show only as compile time errors and should be easily
+	  fixable.
+	
+Release 1.0 RC 1, July 28, 2008
+-------------------------------
+
+Bug
+
+    * [QRTZNET-91] - JobSchedulingDataProcessor does not handle job listeners from XML correctly
+    * [QRTZNET-93] - AdoJobStore calendar update fails because of an already open DataReader
+    * [QRTZNET-94] - Schema does not properly represent itself
+    * [QRTZNET-96] - Relative path names for xml configuration are not working under ASP.NET
+    * [QRTZNET-97] - QuartzSchedulerThread stops processing jobs if computer clock is advanced more than 248 days
+    * [QRTZNET-99] - The query SelectNextTriggerToAcquire is incorrect for certain SQL servers
+    * [QRTZNET-101] - RAMJobStore.TriggerFired() fails to return null in some cases
+    * [QRTZNET-102] - NthIncludedDayTrigger shouldn't use fixed start day of week Sunday
+    * [QRTZNET-103] - Deadlock in RAMJobStore
+    * [QRTZNET-105] - CronExpression fails if nth weekday of month is used and expression passes year
+    * [QRTZNET-107] - SimpleTrigger.ComputeFirstFireTime() method can get into infinite loop
+    * [QRTZNET-110] - Scheduling change causes a paused/blocked scheduler to do unnecessary trigger release
+
+Improvement
+
+    * [QRTZNET-90] - Allow XML configuration to inherit trigger's job name and job group from containing job definition
+    * [QRTZNET-92] - PreviousFireTime should be change to PreviousFireTimeUtc in JobExecutionContext
+    * [QRTZNET-106] - Add complete common logging libraries to distribution, offer log4net as server example
+    * [QRTZNET-109] - Update database scripts default column sizes to be reasonable for more applications
+
+New Feature
+
+    * [QRTZNET-40] - Quartz server for running jobs
+    * [QRTZNET-98] - Introduce mechanism for delaying the start-up of the scheduler
+    * [QRTZNET-108] - Support for reading configuration from properties file
+
+Task
+
+    * [QRTZNET-74] - Add SQLite database script to distribution
+    * [QRTZNET-76] - Update assembly version numbers to current builds in dbproviders.properties
+    * [QRTZNET-100] - Make SetTimeRange() methods public in DailyCalendar
+    * [QRTZNET-111] - Change quartz.properties to quartz.config for safer usage in ASP.NET applications
+
+
+Release 0.9.1, January 20, 2008
+-------------------------------
+
+Bug
+
+    * [QRTZNET-68] - XML configuration example's XML does not conform to schema
+    * [QRTZNET-73] - ComputeFirstFireTimeUtc fails when GetFireTimeAfter returns null
+    * [QRTZNET-80] - MonthlyCalendar GetNextIncludedTime: infinite loop if included date > 7
+    * [QRTZNET-81] - TriggerListenerSupport's methods should be virtual
+    * [QRTZNET-83] - CronExample outputs next scheduled fire times misleadingly in UTC format
+    * [QRTZNET-84] - Quartz's exceptions are not properly serializable when using remoting
+    * [QRTZNET-85] - Cron expression fails when month is incorrectly incremented to 13
+    * [QRTZNET-86] - StdAdoDelegate works incorrectly when Trigger is not found from database
+
+Improvement
+
+    * [QRTZNET-72] - DailyCalendar's parameter names should contain Utc in them
+    * [QRTZNET-75] - Remoting should initialize life time service to forever by default
+    * [QRTZNET-77] - Allow TypeFilterLevel configuration for RemotingExporter and default to Full
+    * [QRTZNET-79] - JobDataMap GetIntValue returns long
+    * [QRTZNET-82] - Xml Job plugin doesn't need write access to schedule file
+
+
+
+Release 0.9, December 1, 2007
+-----------------------------
+
+Bug
+    * [QRTZNET-45] - TriggerUtils.GetEvenMinuteDate Bug
+    * [QRTZNET-48] - JobExecutionContext.ToString() Bug
+    * [QRTZNET-50] - CronExpression and CronTrigger fail when date passes year boundary
+    * [QRTZNET-53] - log format message strings in logging history plugin listeners
+    * [QRTZNET-58] - Scheduler thread daemon information is not passed to scheduler correctly
+    * [QRTZNET-65] - Bug in XmlDataProcessor end time and start time handling & filescanjob last modified date storing
+
+Improvement
+    * [QRTZNET-36] - Add set accessor to Trigger.TriggerListenerNames
+    * [QRTZNET-38] - Replace NullableDateTime with DateTime? in 2.0 build
+    * [QRTZNET-41] - Add extra configuration examples as part of the distribution
+    * [QRTZNET-43] - Refacftory misfire instructions outside implementation classes
+    * [QRTZNET-46] - Change time handling to work internally on UTC times only
+    * [QRTZNET-52] - Allow default SimpleThreadPool initialization if StdSchedulerFactory isn't fed thread pool properties
+    * [QRTZNET-54] - RemoteScheduler
+    * [QRTZNET-55] - Add strong naming to Quartz.NET assembly
+    * [QRTZNET-57] - Better error reporting when problems with database initialization
+    * [QRTZNET-62] - Better exception reporting when Quartz is unable to load database driver
+    * [QRTZNET-64] - Make all Trigger members virtual
+    * [QRTZNET-66] - Clean up NAnt build script
+
+New Feature
+    * [QRTZNET-2] - XML configuration support
+    * [QRTZNET-32] - Allow inherited trigger implementations to be saved as non-blobs when applicable
+    * [QRTZNET-39] - Remotable scheduler support
+    * [QRTZNET-40] - Quartz server console for running jobs
+    * [QRTZNET-42] - Add support for building with Mono
+    * [QRTZNET-67] - Support for Firebird database
+
+Task
+    * [QRTZNET-49] - useProperties configuration does not work as expected
+    * [QRTZNET-56] - Upgrade Common.Logging to 1.2.0
+    * [QRTZNET-60] - Go through web documentation and check for errors
+
+Other:
+
+Breaking changes:
+
+ * Quartz.NET now uses internally UTC times only
+   
+ * Misfire instructions are now encapsulated in MisfirePolicy
+   
+ * Constants are CamelCase instead of ALL_UPPER_CASE
+
+
+
+Release 0.6, August 4, 2007
+-----------------------------
+
+Bug
+    * [QRTZNET-18] - JobDataMap cannot convert Int32 values correctly from string representation
+    * [QRTZNET-20] - CronExpression fails when minute is incremented to 60
+    * [QRTZNET-21] - DailyCalendar.GetTimeRangeEndingTime reports starting time instead of ending time
+    * [QRTZNET-24] - AnnualCalendar.SetDayExcluded(d, false) does not work
+    * [QRTZNET-25] - StringKeyDirtyFlagMap lacks Put(string, int)
+    * [QRTZNET-27] - RamJobStore.StoreTrigger incorrectly removes JobDetail when replacing trigger
+    * [QRTZNET-28] - CronTrigger: Hour, Minute, and Second parameters describe an un-representable DateTime
+    * [QRTZNET-29] - RAMJobStore.RemoveCalendar fails when triggers are present
+    * [QRTZNET-31] - CronExpression GetTimeAfter() fails with System.ArgumentOutOfRangeException
+
+Improvement
+    * [QRTZNET-7] - Load balanced database support
+    * [QRTZNET-22] - CronExpression should all extra white space from expression
+    * [QRTZNET-23] - IScheduler.SchedulerJob should throw always exception if trigger's calendar cannot be found
+    * [QRTZNET-26] - Change trigger instructions and states to enum values
+    * [QRTZNET-33] - Remove confusing Durability and Volatility properties from JobDetail
+
+New Feature
+    * [QRTZNET-3] - AdoJobStore support
+    * [QRTZNET-16] - Quartz default properties should be read from embedded resource inside the assembly
+
+Task
+    * [QRTZNET-17] - CronTrigger misfire instruction constants should be made public
+    * [QRTZNET-30] - Upgrade Common.Logging libraries to 1.1
+    * [QRTZNET-34] - Rename Schedulder_Fields class to more describing SchedulerConstants
+    * [QRTZNET-35] - Change Quartz initialization properties to use "type" instead of "class" to be more .NET like
+
+Other:
+
+Breaking changes:
+
+ * Quartz.NET initialization property keys now use "*.type" instead of "*.class", you need to update configuration
+   or if you are fine with defaults you can also ditch configuration from app.config (see QRTZNET-16)
+   
+ * Trigger instructions and states are now enum values instead of old class constants
+ 
+ * There's no longer properties named Durablity or Volatility, only Durable and Volatile (JobDetail & Trigger) 
+   
+ * Class Scheduler_Fields was renamed to SchedulerConstants
+
+
+Special thanks for Drew Burlingame for string concatenation and TreeSet performance patches
+and Anton Dvinskiy for hunting down bugs, finding good places to refactor and patches
+for Quartz and its tests. 
+
+
+
+Release 0.5, June 17, 2007
+-----------------------------
+Bug
+    * [QRTZNET-13] - CronExpressions don't handle time shift from 24th hour correctly
+    * [QRTZNET-14] - CronExpression does not handle weekdays correctly
+
+Improvement
+    * [QRTZNET-10] - Bring unit tests from Java side
+
+Task
+    * [QRTZNET-1] - Merge changes between 1.5.1 and 1.5.2
+    * [QRTZNET-12] - Fix API documentation, wrong usage of <code> tags makes MSDN doc look terrible
+    * [QRTZNET-15] - Bring changes from Quartz 1.6 to .NET side
+
+Other:
+
+Work around the code base to make it cleaner and more .NET like. 
+Special thanks to Radoslav Radivojevic for hunting CronExpression bugs.
+
+
+
+Release 0.4.1, March 24, 2007
+-----------------------------
+Summary: Bug fix release
+
+Bugs:
+* [QRTZNET-8] - CronExpression problems
+
+Other:
+
+Tutorial created, available on the web page.
+
+Special thanks to Sebastian Fialka for sending Quartz.NET first patch! (QRTZNET-8)
+
+
+Release 0.4, March 4, 2007
+--------------------------
+
+Summary: Initial release
+

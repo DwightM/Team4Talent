@@ -1,0 +1,10 @@
+﻿@model DateTime?
+
+@if (Model == null)
+{
+    <span class='none'>[none]</span>
+}
+else
+{
+    @String.Format("{0:dd/MM/yyyy HH:mm:ss}", Model.Value)
+}

@@ -1,0 +1,211 @@
+﻿@model Quartz.Management.Dto.Model.OverviewDataDto
+
+@{
+    ViewBag.Title = "Overview";
+}
+
+<div id='mainContent'>
+    <div id='schedulerProperties' class='simplePanel'>
+	    <h2>
+		    @Model.Scheduler.SchedulerName
+		    <div class='status'>
+    			<span class='@Model.Scheduler.Status.ToString().ToLower()' title='Status: @Model.Scheduler.Status'></span>
+    		</div>
+	    </h2>
+	    <div class='primary'>
+		    <div class='schedulerInfoPanel'>
+			    <h4>Statistics</h4>
+			    <table>
+				    <tr>
+					    <th>Running since:</th>
+					    <td>
+                            @*@Html.DisplayFor(model => model.Scheduler.RunningSince)*@
+                            @Model.Scheduler.RunningSince
+					    </td>
+				    </tr>
+				    <tr>
+					    <th>Total Jobs:</th>
+					    <td>@Model.Scheduler.TotalJobs</td>
+				    </tr>
+				    <tr>
+					    <th>Executed Jobs:</th>
+					    <td>@Model.Scheduler.ExecutedJobs</td>
+				    </tr>
+			    </table>        
+		    </div>
+	    </div>
+	    <div class='secondary'>
+		    <div class='schedulerInfoPanel'>
+			    <h4>Properties</h4>
+			    <table>
+				    <tr>
+					    <th>Name:</th>
+					    <td>@Model.Scheduler.SchedulerName</td>
+				    </tr>
+				    <tr>
+					    <th>Instance ID:</th>
+					    <td>@Model.Scheduler.InstanceId</td>
+				    </tr>
+				    <tr>
+					    <th>Is remote:</th>
+					    <td>@Model.Scheduler.IsRemote</td>
+				    </tr>
+				    <tr>
+					    <th>Scheduler type:</th>
+					    <td>@Model.Scheduler.SchedulerType</td>
+				    </tr>
+			    </table>        
+		    </div>
+	    </div>
+    </div>
+
+    <div id='jobsContainer'>
+        @foreach (var _jobGroup in Model.Scheduler.JobsGroups)
+        {
+            <h2 class='groupHeader'>
+                @_jobGroup.Name
+                <div class='status'>
+                    <span onmouseover="mopen('@_jobGroup.Name')" onmouseout="mclosetime()">
+                        <img style='vertical-align:middle;' alt='Options' src='../../Content/Images/menu.png' />
+                    </span> |
+                    <div id='@_jobGroup.Name' class='menu' onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+					    @if (_jobGroup.CanPause)
+                        {
+                            @Html.ActionLink("Pause all", "Command", "Scheduler", new { command = "group-pause", groupName = _jobGroup.Name }, null);
+                        }
+					    @if (_jobGroup.CanStart)
+                        {
+                            @Html.ActionLink("Resume all", "Command", "Scheduler", new { command = "group-resume", groupName = _jobGroup.Name }, null);
+                        }
+					    @if (!(_jobGroup.CanStart || _jobGroup.CanPause))
+                        {
+                            <div class='none'>No actions for complete group</div>
+                        }
+                    </div>
+                    <span class='@_jobGroup.ActivityStatus.ToString().ToLower()'>
+                        @{ string jobGroupStatusImageUri = String.Format("../../Content/Images/status{0}.png", _jobGroup.ActivityStatus); }
+		                <img title='Status: @_jobGroup.ActivityStatus' alt='@_jobGroup.ActivityStatus' src='@jobGroupStatusImageUri'>
+	                </span>
+                </div>
+            </h2>
+
+            foreach (var _job in _jobGroup.Jobs)
+            {
+                <div class='job'>
+	                <div class='status'>
+		                <span onmouseover="mopen('@_job.FullName')" onmouseout="mclosetime()">
+			                <img style='vertical-align:middle;' alt='Options' src='../../Content/Images/menu.png' />
+		                </span> |
+		                <div id='@_job.FullName' class='menu' onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+			                @if (_job.CanPause)
+                            {
+                                @Html.ActionLink("Pause all", "Command", "Scheduler", new { command = "job-pause", job = _job.Name, groupName = _job.GroupName }, null);
+                            }
+			                @if (_job.CanStart)
+                            {
+                                @Html.ActionLink("Resume all", "Command", "Scheduler", new { command = "job-resume", job = _job.Name, groupName = _job.GroupName }, null);
+                            }
+                            @if (_job.CanExecuteNow)
+                            {
+                                @Html.ActionLink("Execute now", "Command", "Scheduler", new { command = "job-trigger", job = _job.Name, groupName = _job.GroupName }, null);
+                            }
+                            @if (!(_job.CanStart || _job.CanPause || _job.CanExecuteNow))
+                            {
+                                <div class='none'>No actions for complete job</div>
+                            }
+		                </div>
+                        <span class='@_job.ActivityStatus.ToString().ToLower()'>
+                            @{ string jobStatusImageUri = String.Format("../../Content/Images/status{0}.png", _job.ActivityStatus); }
+		                    <img title='Status: @_job.ActivityStatus' alt='@_job.ActivityStatus' src='@jobStatusImageUri'>
+	                    </span>
+	                </div>
+
+
+                    <h3>
+                        @Html.ActionLink(_job.Name, "Detail", "Scheduler", new { name = _job.Name, groupName = _job.GroupName }, null)
+                    </h3>
+
+                    <table class="data">
+				        <thead>
+					        <tr>
+						        <th>Description</th>
+						        <th>Status</th>
+						        <th>Start date</th>
+						        <th>End date</th>
+						        <th>Previous fire date</th>
+						        <th>Next fire date</th>
+						        <th></th>
+					        </tr>
+				        </thead>
+				        <tbody>
+                        @foreach (var _trigger in _job.Triggers)
+                        {
+                            <tr>
+                                <td class='triggerName'>
+                                @if (String.IsNullOrWhiteSpace(_trigger.Name))
+                                {
+                                    <span class='none'>[none]</span>   
+                                }
+                                else
+                                {
+                                    @_trigger.Name
+                                }
+                                </td>
+                                <td>
+                                	<span class='@_trigger.ActivityStatus.ToString().ToLower()'>
+                                        @{ string triggerStatusImageUri = String.Format("../../Content/Images/status{0}.png", _trigger.ActivityStatus); }
+		                                <img title='Status: @_trigger.ActivityStatus' alt='@_trigger.ActivityStatus' src='@triggerStatusImageUri'>
+	                                </span>
+                                </td>
+                                <td>
+                                    @_trigger.StartDateTime
+                                </td>
+                                <td>
+                                    @if (_trigger.EndDateTime == null)
+                                    {
+                                    <span class='none'>[none]</span>   
+                                    }
+                                    else
+                                    {
+                                        @_trigger.EndDateTime    
+                                    }
+                                </td>
+                                <td>
+                                    @if (_trigger.PreviousFireDateTime == null)
+                                    {
+                                    <span class='none'>[none]</span>   
+                                    }
+                                    else
+                                    {
+                                        @_trigger.PreviousFireDateTime    
+                                    }
+                                </td>
+                                <td>
+                                    @if (_trigger.NextFireDateTime == null)
+                                    {
+                                    <span class='none'>[none]</span>   
+                                    }
+                                    else
+                                    {
+                                        @_trigger.NextFireDateTime    
+                                    }
+                                </td>
+                                <td>
+					                @if (_trigger.CanPause)
+                                    {
+                                        @Html.ActionLink("Pause", "Command", "Scheduler", new { command = "trigger-pause", trigger = _trigger.Name, groupName = _trigger.GroupName }, null);
+                                    }
+					                @if (_trigger.CanStart)
+                                    {
+                                        @Html.ActionLink("Resume", "Command", "Scheduler", new { command = "trigger-resume", trigger = _trigger.Name, groupName = _trigger.GroupName }, null);
+                                    }
+                                </td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        }
+    </div>
+</div>

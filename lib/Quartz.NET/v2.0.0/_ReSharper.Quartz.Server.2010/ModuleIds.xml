@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="09082B9A-906C-4A17-A2E5-6C947DAC7C85" ModuleId="Quartz.Server.2010" />
+  <Module PersistentId="Topshelf, Version=2.2.2.0, Culture=neutral" ModuleId="Topshelf" />
+  <Module PersistentId="AEF8823B-E45B-4B35-A4D0-C08C1196D017" ModuleId="Quartz.2010" />
+</Modules>

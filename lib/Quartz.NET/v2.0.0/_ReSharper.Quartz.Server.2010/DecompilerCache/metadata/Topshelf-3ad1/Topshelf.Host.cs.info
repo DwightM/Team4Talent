@@ -1,0 +1,33 @@
+R# version: 5.0.1659.36
+assembly Topshelf, Version=2.2.2.0, Culture=neutral
+  file C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\lib\Quartz.NET\v2.0.0\lib\other\4.0\Topshelf.dll mtime 11/01/2012 21:15:30
+referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll mtime 18/03/2010 18:31:26
+referenced assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll mtime 18/03/2010 18:31:26
+referenced assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.configuration.dll mtime 18/03/2010 18:31:26
+referenced assembly log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+  file C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\lib\Quartz.NET\v2.0.0\lib\other\log4net.dll mtime 11/01/2012 21:15:29
+referenced assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll mtime 18/03/2010 18:31:26
+referenced assembly System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceProcess.dll mtime 18/03/2010 12:16:28
+referenced assembly System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Configuration.Install.dll mtime 18/03/2010 12:16:28
+referenced assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.dll mtime 6/04/2011 14:48:20
+referenced assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll mtime 18/03/2010 18:31:26
+referenced assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll mtime 18/03/2010 18:31:26
+referenced assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll mtime 18/03/2010 18:31:26
+referenced assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.Linq.dll mtime 18/03/2010 12:16:28
+referenced assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.dll mtime 18/03/2010 18:31:26
+referenced assembly System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Security.dll mtime 18/03/2010 12:16:28
+referenced assembly System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Management.dll mtime 18/03/2010 12:16:28

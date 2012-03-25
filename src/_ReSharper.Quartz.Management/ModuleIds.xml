@@ -1,0 +1,13 @@
+<Modules>
+  <Module PersistentId="45502CB1-FD5F-4862-A739-1BB15374993D" ModuleId="Quartz.Management.Infrastructure.Wcf" />
+  <Module PersistentId="FAF1F37A-356E-49A9-A550-5CCB3B77565A" ModuleId="Quartz.Management.Application" />
+  <Module PersistentId="6419D479-6A26-458D-82BB-BE34B71AD8CC" ModuleId="Quartz.Management.Domain" />
+  <Module PersistentId="7CABFAFA-93B0-4602-96F9-48FF782F7819" ModuleId="Quartz.Management.Domain.Fake" />
+  <Module PersistentId="D7F4D5C3-0F90-4514-A962-0C12D5A7C4EC" ModuleId="Quartz.Management.Infrastructure.Wcf.WebHost" />
+  <Module PersistentId="49BFACC3-D8BF-4AC7-840D-FD2C5C225067" ModuleId="Quartz.ConsoleSpike" />
+  <Module PersistentId="E1F23E55-CB7B-48A0-9F2F-D7F4F67F2372" ModuleId="Quartz.Management.Application.Test" />
+  <Module PersistentId="CBD77054-655C-422E-9168-5B7BE6C3D002" ModuleId="Quartz.Management.Domain.Test" />
+  <Module PersistentId="442F9F74-FE03-4145-B00B-74C6FF6EED76" ModuleId="Quartz.Management.Dto" />
+  <Module PersistentId="A5D5A6EA-661F-4C92-A583-47978BC4D1C7" ModuleId="Quartz.Management.Shared" />
+  <Module PersistentId="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F" ModuleId="Quartz.Management.Presentation.Mvc" />
+</Modules>

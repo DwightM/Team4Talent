@@ -1,0 +1,22 @@
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Presentation.Mvc.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Presentation.Mvc.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\bin\EntityFramework.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\bin\EntityFramework.xml
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\obj\Debug\ResolveAssemblyReference.cache
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\obj\Debug\Quartz.Management.Presentation.Mvc.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\obj\Debug\Quartz.Management.Presentation.Mvc.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Dto.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Dto.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Shared.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Shared.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Presentation.Mvc.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Presentation.Mvc.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\bin\EntityFramework.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Dto.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Shared.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Dto.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\bin\EntityFramework.xml
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\bin\Quartz.Management.Shared.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\obj\Debug\ResolveAssemblyReference.cache
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\obj\Debug\Quartz.Management.Presentation.Mvc.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Presentation.Mvc\obj\Debug\Quartz.Management.Presentation.Mvc.pdb

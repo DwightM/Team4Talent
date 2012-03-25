@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="32b8daec-7479-4a67-b472-7d021943bfe5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:3406/SchedulerReadService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SchedulerReadService.disco" MetadataType="Disco" ID="1c4fe97f-2f4d-48f4-808c-3f854a84b2d2" SourceId="1" SourceUrl="http://localhost:3406/SchedulerReadService.svc?disco" />
+    <MetadataFile FileName="SchedulerReadFacadeService.wsdl" MetadataType="Wsdl" ID="f0b87fc1-7df2-4e83-8ee1-d33d369f4425" SourceId="1" SourceUrl="http://localhost:3406/SchedulerReadService.svc?wsdl" />
+    <MetadataFile FileName="SchedulerReadService.xsd" MetadataType="Schema" ID="711d13e1-b1bd-478c-99ff-0e03cea9a079" SourceId="1" SourceUrl="http://localhost:3406/SchedulerReadService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SchedulerReadService1.xsd" MetadataType="Schema" ID="50466eca-cb68-427c-92bb-ae7dec22456e" SourceId="1" SourceUrl="http://localhost:3406/SchedulerReadService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SchedulerReadService2.xsd" MetadataType="Schema" ID="4277f861-948b-4710-88f9-4ce52b6b8b89" SourceId="1" SourceUrl="http://localhost:3406/SchedulerReadService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

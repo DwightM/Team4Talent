@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Quartz.Management.Infrastructure.Wcf.Services.SchedulerReadFacadeService" Factory="Ninject.Extensions.Wcf.NinjectServiceHostFactory" %>

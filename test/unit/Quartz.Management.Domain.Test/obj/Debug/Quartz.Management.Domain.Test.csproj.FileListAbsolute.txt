@@ -1,0 +1,22 @@
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Domain.Test.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Domain.Test.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Domain.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Domain.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\obj\Debug\Quartz.Management.Domain.Test.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\obj\Debug\Quartz.Management.Domain.Test.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\bin\Debug\nunit.framework.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\bin\Debug\nunit.framework.xml
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Domain.Test.dll
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Domain.Test.pdb
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\bin\Debug\nunit.framework.dll
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Domain.dll
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Domain.pdb
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\bin\Debug\nunit.framework.xml
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\obj\Debug\Quartz.Management.Domain.Test.dll
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\obj\Debug\Quartz.Management.Domain.Test.pdb
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Shared.dll
+C:\_Private\Projects\Team4Talent\DDS\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Shared.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Shared.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\test\unit\Quartz.Management.Domain.Test\bin\Debug\Quartz.Management.Shared.pdb

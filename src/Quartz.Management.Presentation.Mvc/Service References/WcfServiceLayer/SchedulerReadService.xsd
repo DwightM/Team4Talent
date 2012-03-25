@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Quartz.Management.Dto.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Quartz.Management.Dto.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="OverviewDataDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Scheduler" nillable="true" type="tns:SchedulerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OverviewDataDto" nillable="true" type="tns:OverviewDataDto" />
+  <xs:complexType name="SchedulerDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ExecutedJobs" type="xs:int" />
+      <xs:element minOccurs="0" name="InstanceId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsRemote" type="xs:boolean" />
+      <xs:element minOccurs="0" name="JobsGroups" nillable="true" type="tns:ArrayOfJobGroupDto" />
+      <xs:element minOccurs="0" name="RunningSince" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SchedulerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SchedulerType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalJobs" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SchedulerDto" nillable="true" type="tns:SchedulerDto" />
+  <xs:complexType name="ArrayOfJobGroupDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="JobGroupDto" nillable="true" type="tns:JobGroupDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJobGroupDto" nillable="true" type="tns:ArrayOfJobGroupDto" />
+  <xs:complexType name="JobGroupDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Jobs" nillable="true" type="tns:ArrayOfJobDto" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JobGroupDto" nillable="true" type="tns:JobGroupDto" />
+  <xs:complexType name="ArrayOfJobDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="JobDto" nillable="true" type="tns:JobDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJobDto" nillable="true" type="tns:ArrayOfJobDto" />
+  <xs:complexType name="JobDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsDurable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsVolatile" type="xs:boolean" />
+      <xs:element minOccurs="0" name="JobType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Triggers" nillable="true" type="tns:ArrayOfTriggerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JobDto" nillable="true" type="tns:JobDto" />
+  <xs:complexType name="ArrayOfTriggerDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TriggerDto" nillable="true" type="tns:TriggerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTriggerDto" nillable="true" type="tns:ArrayOfTriggerDto" />
+  <xs:complexType name="TriggerDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EndDateTime" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDateTime" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TriggerDto" nillable="true" type="tns:TriggerDto" />
+  <xs:complexType name="JobDetailDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Scheduler" nillable="true" type="tns:SchedulerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JobDetailDto" nillable="true" type="tns:JobDetailDto" />
+</xs:schema>

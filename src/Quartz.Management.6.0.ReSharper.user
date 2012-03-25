@@ -1,0 +1,311 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Scheduler.cs" caret="0" fromTop="0" />
+      <File id="45502CB1-FD5F-4862-A739-1BB15374993D/d:Services/d:Contracts/f:ISchedulerReadFacadeService.cs" caret="190" fromTop="6" />
+      <File id="FAF1F37A-356E-49A9-A550-5CCB3B77565A/d:Services/d:Contracts/f:ISchedulerReadService.cs" caret="133" fromTop="4" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:JobDetailDto.cs" caret="260" fromTop="14" />
+      <File id="CBD77054-655C-422E-9168-5B7BE6C3D002/d:Model/f:JobTest.cs" caret="306" fromTop="14" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Job.cs" caret="506" fromTop="27" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:SchedulerDto.cs" caret="168" fromTop="0" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:OverviewDataDto.cs" caret="211" fromTop="9" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:JobDto.cs" caret="576" fromTop="26" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/f:Web.config" caret="3667" fromTop="34" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/f:Web.Release.config" caret="792" fromTop="17" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/f:Web.Debug.config" caret="0" fromTop="0" />
+      <File id="C37EC691-56FE-468B-BB0F-B94957702D0B/d:Controllers/f:HomeControllerTest.cs" caret="260" fromTop="9" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Shared/f:Error.cshtml" caret="154" fromTop="9" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Home/f:About.cshtml" caret="93" fromTop="8" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Home/f:Index.cshtml" caret="283" fromTop="10" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Content/f:Main.css" caret="0" fromTop="0" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/f:_ViewStart.cshtml" caret="36" fromTop="1" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Controllers/f:SchedulerController.cs" caret="432" fromTop="16" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Shared/d:DisplayTemplates/f:DateTime.cshtml" caret="28" fromTop="2" />
+      <File id="45502CB1-FD5F-4862-A739-1BB15374993D/d:Services/f:SchedulerReadFacadeService.cs" caret="1222" fromTop="37" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Shared/f:_Layout.cshtml" caret="1326" fromTop="35" />
+      <File id="A5D5A6EA-661F-4C92-A583-47978BC4D1C7/f:EActivityStatus.cs" caret="34" fromTop="0" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="810" fromTop="15" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:TriggerDto.cs" caret="934" fromTop="35" />
+      <File id="7CABFAFA-93B0-4602-96F9-48FF782F7819/d:Repositories/f:FakeSchedulerRepository.cs" caret="851" fromTop="0" />
+      <File id="FAF1F37A-356E-49A9-A550-5CCB3B77565A/d:Services/f:SchedulerReadService.cs" caret="5631" fromTop="24" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="3642" fromTop="18" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Shared/d:DisplayTemplates/f:DateTime.cshtml" caret="136" fromTop="8" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="504" fromTop="25" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="491" fromTop="25" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="608" fromTop="32" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:TriggerDto.cs" caret="820" fromTop="32" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:TriggerDto.cs" caret="676" fromTop="25" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="4734" fromTop="30" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="5047" fromTop="36" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="5235" fromTop="40" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="5544" fromTop="46" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Shared/f:_Layout.cshtml" caret="428" fromTop="8" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Shared/f:_Layout.cshtml" caret="1326" fromTop="35" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="2697" fromTop="0" />
+      <File id="A5D5A6EA-661F-4C92-A583-47978BC4D1C7/f:EActivityStatus.cs" caret="34" fromTop="0" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="904" fromTop="26" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="742" fromTop="21" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="793" fromTop="13" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="1217" fromTop="33" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="1568" fromTop="41" />
+      <File id="7CABFAFA-93B0-4602-96F9-48FF782F7819/d:Repositories/f:FakeSchedulerRepository.cs" caret="2336" fromTop="26" />
+      <File id="7CABFAFA-93B0-4602-96F9-48FF782F7819/d:Repositories/f:FakeSchedulerRepository.cs" caret="2878" fromTop="34" />
+      <File id="7CABFAFA-93B0-4602-96F9-48FF782F7819/d:Repositories/f:FakeSchedulerRepository.cs" caret="3224" fromTop="38" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:TriggerDto.cs" caret="951" fromTop="36" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:TriggerDto.cs" caret="719" fromTop="24" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:TriggerDto.cs" caret="934" fromTop="35" />
+      <File id="FAF1F37A-356E-49A9-A550-5CCB3B77565A/d:Services/f:SchedulerReadService.cs" caret="3180" fromTop="30" />
+      <File id="FAF1F37A-356E-49A9-A550-5CCB3B77565A/d:Services/f:SchedulerReadService.cs" caret="5950" fromTop="29" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="5695" fromTop="37" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="6208" fromTop="45" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="3753" fromTop="18" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="jobDetail" priority="63" />
+      <Item value="return" priority="255" />
+      <Item value="public" priority="127" />
+      <Item value="private" priority="31" />
+      <Item value="_Identity" priority="64" />
+      <Item value="prop" priority="351" />
+      <Item value="string" priority="280" />
+      <Item value="JobGroup`0" priority="62" />
+      <Item value="JobGroups" priority="32" />
+      <Item value="new" priority="383" />
+      <Item value="ReadOnlyCollection&lt;JobGroup&gt;" priority="28" />
+      <Item value="_JobGroups" priority="31" />
+      <Item value="_SchedulerRepository" priority="63" />
+      <Item value="scheduler" priority="286" />
+      <Item value="var" priority="255" />
+      <Item value="OverviewDataDto" priority="28" />
+      <Item value="overviewDataDto" priority="287" />
+      <Item value="JobGroup" priority="28" />
+      <Item value="foreach" priority="157" />
+      <Item value="jobGroup" priority="127" />
+      <Item value="job" priority="127" />
+      <Item value="trigger" priority="98" />
+      <Item value="jobDto" priority="63" />
+      <Item value="triggerDto" priority="31" />
+      <Item value="jobGroupDto" priority="31" />
+      <Item value="TriggerDto`0" priority="30" />
+      <Item value="Triggers" priority="31" />
+      <Item value="List&lt;TriggerDto&gt;" priority="28" />
+      <Item value="JobGroupDto`0" priority="30" />
+      <Item value="JobsGroups" priority="31" />
+      <Item value="List&lt;JobGroupDto&gt;" priority="28" />
+      <Item value="null" priority="159" />
+      <Item value="OverviewDataDto`0" priority="31" />
+      <Item value="_SchedulerReadService" priority="63" />
+      <Item value="DataMember" priority="223" />
+      <Item value="DataContract" priority="95" />
+      <Item value="OperationContract" priority="31" />
+      <Item value="name" priority="31" />
+      <Item value="JobDetailDto" priority="28" />
+      <Item value="_overviewDataDto" priority="32" />
+      <Item value="_jobDetailDto" priority="31" />
+      <Item value="SchedulerDto`0" priority="62" />
+      <Item value="SchedulerDto" priority="29" />
+      <Item value="Scheduler" priority="64" />
+      <Item value="_scheduler" priority="64" />
+      <Item value="_schedulerDto" priority="64" />
+      <Item value="x" priority="63" />
+      <Item value="if" priority="93" />
+      <Item value="_jobGroup" priority="95" />
+      <Item value="group" priority="31" />
+      <Item value="_job" priority="229" />
+      <Item value="JobDto" priority="28" />
+      <Item value="Name" priority="31" />
+      <Item value="_jobGroupDto" priority="31" />
+      <Item value="_jobDto" priority="31" />
+      <Item value="DataMemberAttribute`0" priority="31" />
+      <Item value="bool" priority="125" />
+      <Item value="Type`0" priority="31" />
+      <Item value="Description" priority="64" />
+      <Item value="description" priority="31" />
+      <Item value="JobType" priority="64" />
+      <Item value="jobType" priority="31" />
+      <Item value="IsDurable" priority="64" />
+      <Item value="isDurable" priority="31" />
+      <Item value="IsVolatile" priority="64" />
+      <Item value="isVolatile" priority="26" />
+      <Item value="false" priority="127" />
+      <Item value="FullName" priority="32" />
+      <Item value="Html" priority="149" />
+      <Item value="ActionResult`0" priority="31" />
+      <Item value="View`0" priority="31" />
+      <Item value="WcfServiceLayer" priority="28" />
+      <Item value="SchedulerReadFacadeServiceClient" priority="25" />
+      <Item value="service" priority="31" />
+      <Item value="overviewData" priority="31" />
+      <Item value="Model" priority="123" />
+      <Item value="System" priority="29" />
+      <Item value="DateTime`0" priority="90" />
+      <Item value="in" priority="63" />
+      <Item value="h2" priority="29" />
+      <Item value="div" priority="29" />
+      <Item value="for" priority="29" />
+      <Item value="ViewBag" priority="29" />
+      <Item value="String`0" priority="31" />
+      <Item value="_trigger" priority="189" />
+      <Item value="tbody" priority="29" />
+      <Item value="ViewData" priority="29" />
+      <Item value="model" priority="29" />
+      <Item value="PreviousFireDateTime" priority="64" />
+      <Item value="previousFireDateTime" priority="31" />
+      <Item value="NextFireDateTime" priority="64" />
+      <Item value="nextFireDateTime" priority="31" />
+      <Item value="DateTime" priority="57" />
+      <Item value="ActivityStatus" priority="64" />
+      <Item value="activityStatus" priority="26" />
+      <Item value="EnvironmentVariableTarget`0" priority="29" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.IJobDetail">
+      <Item value="Key" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Repositories.ISchedulerRepository">
+      <Item value="ReadScheduler`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Model.Scheduler">
+      <Item value="JobGroups" priority="80" />
+      <Item value="Name" priority="26" />
+      <Item value="RunningSince" priority="26" />
+      <Item value="TotalJobs" priority="26" />
+      <Item value="ExecutedJobs" priority="26" />
+      <Item value="InstanceId" priority="26" />
+      <Item value="IsRemote" priority="26" />
+      <Item value="SchedulerType" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Model.JobGroup">
+      <Item value="Name" priority="55" />
+      <Item value="Jobs" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Model.Job">
+      <Item value="Name" priority="82" />
+      <Item value="Triggers" priority="53" />
+      <Item value="Description" priority="27" />
+      <Item value="FullName" priority="27" />
+      <Item value="IsDurable" priority="27" />
+      <Item value="IsVolatile" priority="27" />
+      <Item value="JobType" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Model.Trigger">
+      <Item value="StartDateTime" priority="27" />
+      <Item value="EndDateTime" priority="27" />
+      <Item value="PreviousFireDateTime" priority="27" />
+      <Item value="NextFireDateTime" priority="27" />
+      <Item value="ActivityStatus" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Application.Services.Contracts.ISchedulerReadService">
+      <Item value="ReadOverviewData`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ReadOnlyCollection`1">
+      <Item value="SingleOrDefault`1" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Dto.Model.SchedulerDto">
+      <Item value="JobsGroups" priority="53" />
+      <Item value="SchedulerName" priority="26" />
+      <Item value="ExecutedJobs" priority="27" />
+      <Item value="TotalJobs" priority="27" />
+      <Item value="RunningSince" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Dto.Model.JobGroupDto">
+      <Item value="Jobs" priority="53" />
+      <Item value="Name" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="FullName" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlEntityCodeCompletionContext">
+      <Item value="&amp;nbsp;" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="&amp;nbsp;" priority="0" />
+      <Item value="p" priority="5" />
+      <Item value="div" priority="31" />
+      <Item value="h2" priority="7" />
+      <Item value="ViewBag" priority="9" />
+      <Item value="td" priority="29" />
+      <Item value="tr" priority="5" />
+      <Item value="tbody" priority="7" />
+      <Item value="Content" priority="5" />
+      <Item value="Images" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="RazorTransitionCompletionContext">
+      <Item value="Html" priority="43" />
+      <Item value="Model" priority="15" />
+      <Item value="System" priority="9" />
+      <Item value="foreach" priority="7" />
+      <Item value="for" priority="7" />
+      <Item value="ViewData" priority="7" />
+      <Item value="model" priority="7" />
+      <Item value="if" priority="7" />
+      <Item value="_trigger" priority="15" />
+      <Item value="EnvironmentVariableTarget`0" priority="7" />
+      <Item value="string" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="ActionLink`0" priority="53" />
+      <Item value="Display`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Dto.Model.OverviewDataDto">
+      <Item value="Scheduler" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Presentation.Mvc.WcfServiceLayer.SchedulerReadFacadeServiceClient">
+      <Item value="ReadOverviewData`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="UtcNow" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Dto.Model.JobDto">
+      <Item value="Name" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrWhiteSpace`0" priority="26" />
+      <Item value="Format`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Dto.Model.TriggerDto">
+      <Item value="Name" priority="26" />
+      <Item value="EndDateTime" priority="82" />
+      <Item value="PreviousFireDateTime" priority="55" />
+      <Item value="NextFireDateTime" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewDataDictionary">
+      <Item value="TemplateInfo" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Quartz.Management.Shared.EActivityStatus">
+      <Item value="Active" priority="26" />
+      <Item value="Complete" priority="22" />
+      <Item value="Mixed" priority="27" />
+      <Item value="Paused" priority="22" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

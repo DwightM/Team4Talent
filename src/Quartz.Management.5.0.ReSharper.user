@@ -1,0 +1,361 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="IScheduler`0" priority="0" />
+      <Item value="scheduler" priority="6" />
+      <Item value="Job" priority="3" />
+      <Item value="Quartz" priority="1" />
+      <Item value="NoOpJob`0" priority="0" />
+      <Item value="new" priority="30" />
+      <Item value="Util" priority="0" />
+      <Item value="ObjectUtils`0" priority="0" />
+      <Item value="JobBuilder`0" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="var" priority="17" />
+      <Item value="TriggerBuilder`0" priority="0" />
+      <Item value="ScheduleBuilder" priority="0" />
+      <Item value="ISimpleTrigger`0" priority="0" />
+      <Item value="SimpleScheduleBuilder`0" priority="0" />
+      <Item value="Console`0" priority="2" />
+      <Item value="foreach" priority="1" />
+      <Item value="jobGroupName" priority="1" />
+      <Item value="jobKey" priority="0" />
+      <Item value="jobDetail" priority="3" />
+      <Item value="job" priority="5" />
+      <Item value="prop" priority="18" />
+      <Item value="List" priority="3" />
+      <Item value="Job`0" priority="2" />
+      <Item value="string" priority="12" />
+      <Item value="JobGroup`0" priority="7" />
+      <Item value="jobTriggers" priority="2" />
+      <Item value="public" priority="10" />
+      <Item value="class" priority="0" />
+      <Item value="JobGroups" priority="0" />
+      <Item value="NUnit" priority="0" />
+      <Item value="Core" priority="0" />
+      <Item value="TestFixture`0" priority="0" />
+      <Item value="void" priority="5" />
+      <Item value="Assert`0" priority="3" />
+      <Item value="Test" priority="2" />
+      <Item value="SchedulerReadService`0" priority="1" />
+      <Item value="sut" priority="1" />
+      <Item value="jobGroups" priority="3" />
+      <Item value="schedulerRepository" priority="5" />
+      <Item value="Moq" priority="0" />
+      <Item value="schedulerRepositoryMock" priority="3" />
+      <Item value="ExpectedExceptionAttribute`0" priority="1" />
+      <Item value="try" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="isArgumentExceptionThrown" priority="0" />
+      <Item value="if" priority="2" />
+      <Item value="thr" priority="1" />
+      <Item value="ArgumentException" priority="1" />
+      <Item value="sr" priority="2" />
+      <Item value="List&lt;JobGroup&gt;" priority="3" />
+      <Item value="Times`0" priority="0" />
+      <Item value="_SchedulerRepository" priority="2" />
+      <Item value="OperationContract" priority="0" />
+      <Item value="Contracts" priority="0" />
+      <Item value="ISchedulerReadService`0" priority="2" />
+      <Item value="schedulerReadService" priority="0" />
+      <Item value="_SchedulerReadService" priority="0" />
+      <Item value="return" priority="12" />
+      <Item value="null" priority="2" />
+      <Item value="JobGroupDto`0" priority="0" />
+      <Item value="Ninject" priority="4" />
+      <Item value="Activation" priority="0" />
+      <Item value="Extensions" priority="1" />
+      <Item value="Wcf" priority="1" />
+      <Item value="NinjectWcfApplication`0" priority="1" />
+      <Item value="StandardKernel`0" priority="0" />
+      <Item value="Modules" priority="0" />
+      <Item value="NinjectModule`0" priority="0" />
+      <Item value="Bind`0" priority="1" />
+      <Item value="private" priority="2" />
+      <Item value="int" priority="2" />
+      <Item value="NinjectServiceBehavior`0" priority="0" />
+      <Item value="KernelContainer`0" priority="0" />
+      <Item value="CreateKernel`0" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="Scheduler`0" priority="0" />
+      <Item value="Scheduler" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="TotalJobs" priority="0" />
+      <Item value="DateTime" priority="0" />
+      <Item value="JobGroup" priority="1" />
+      <Item value="Name" priority="7" />
+      <Item value="Jobs" priority="0" />
+      <Item value="List&lt;Job&gt;" priority="0" />
+      <Item value="jobGroup" priority="3" />
+      <Item value="_jobGroup" priority="3" />
+      <Item value="_jobGroups" priority="0" />
+      <Item value="this" priority="1" />
+      <Item value="ReadOnlyCollection&lt;JobGroup&gt;" priority="0" />
+      <Item value="ReadOnlyCollection&lt;Job&gt;" priority="0" />
+      <Item value="groupName" priority="3" />
+      <Item value="_jobs" priority="1" />
+      <Item value="name" priority="4" />
+      <Item value="ReadOnlyCollection&lt;Trigger&gt;" priority="0" />
+      <Item value="_triggers" priority="2" />
+      <Item value="Trigger`0" priority="0" />
+      <Item value="Trigger" priority="0" />
+      <Item value="DateTime`0" priority="1" />
+      <Item value="startDateTime" priority="1" />
+      <Item value="endDateTime" priority="1" />
+      <Item value="TriggerGroup" priority="1" />
+      <Item value="group" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="activityStatus" priority="1" />
+      <Item value="DataContract" priority="0" />
+      <Item value="DataMember" priority="4" />
+      <Item value="CanStart" priority="1" />
+      <Item value="_trigger" priority="2" />
+      <Item value="CanPause" priority="1" />
+      <Item value="TriggerActivityStatus" priority="0" />
+      <Item value="triggerActivityStatus" priority="0" />
+      <Item value="SchedulerStatus" priority="1" />
+      <Item value="ESchedulerStatus`0" priority="0" />
+      <Item value="_scheduler" priority="0" />
+      <Item value="ActivityStatus" priority="3" />
+      <Item value="EJobGroupActivityStatus`0" priority="0" />
+      <Item value="Mixed" priority="1" />
+      <Item value="Active" priority="2" />
+      <Item value="EJobActivityStatus`0" priority="1" />
+      <Item value="jobActivityStatus" priority="1" />
+      <Item value="Paused" priority="0" />
+      <Item value="Complete" priority="0" />
+      <Item value="_job" priority="3" />
+      <Item value="CanExecuteNow" priority="1" />
+      <Item value="String`0" priority="0" />
+      <Item value="_ActivityStatus" priority="0" />
+      <Item value="Triggers" priority="1" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="WcfServiceLayer" priority="0" />
+      <Item value="SchedulerReadFacadeServiceClient`0" priority="0" />
+      <Item value="_service" priority="0" />
+      <Item value="View`0" priority="0" />
+      <Item value="_jobDetail" priority="0" />
+      <Item value="GroupName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Quartz.Impl.StdSchedulerFactory">
+      <Item value="GetDefaultScheduler`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.IScheduler">
+      <Item value="Start`0" priority="0" />
+      <Item value="Shutdown`0" priority="0" />
+      <Item value="ScheduleJob`0" priority="0" />
+      <Item value="GetJobGroupNames`0" priority="0" />
+      <Item value="GetJobDetail`0" priority="1" />
+      <Item value="GetJobKeys`0" priority="0" />
+      <Item value="GetTriggersOfJob`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Quartz.JobBuilder">
+      <Item value="Create`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.JobBuilder">
+      <Item value="OfType`0" priority="1" />
+      <Item value="WithDescription`0" priority="0" />
+      <Item value="WithIdentity`0" priority="0" />
+      <Item value="Build`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Quartz.TriggerBuilder">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.TriggerBuilder">
+      <Item value="StartNow`0" priority="0" />
+      <Item value="WithDescription`0" priority="0" />
+      <Item value="WithIdentity`0" priority="0" />
+      <Item value="WithSchedule`0" priority="0" />
+      <Item value="Build`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Quartz.SimpleScheduleBuilder">
+      <Item value="RepeatMinutelyForever`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Write`0" priority="0" />
+      <Item value="ReadKey`0" priority="0" />
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Quartz.Impl.Matchers.GroupMatcher`1">
+      <Item value="GroupContains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.IJobDetail">
+      <Item value="Key" priority="2" />
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.JobKey">
+      <Item value="Name" priority="0" />
+      <Item value="Group" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsNotNull`0" priority="3" />
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Application.Services.SchedulerReadService">
+      <Item value="ReadAllJobGroups`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Object" priority="0" />
+      <Item value="Setup`1" priority="1" />
+      <Item value="Verify`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ArgumentException">
+      <Item value="ParamName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Repositories.ISchedulerRepository">
+      <Item value="ReadAllJobInformation`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`16" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.Times">
+      <Item value="Once`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Application.Services.Contracts.ISchedulerReadService">
+      <Item value="ReadAllJobGroups`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ninject.Syntax.IBindingToSyntax`1">
+      <Item value="To`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Ninject.Extensions.Wcf.KernelContainer">
+      <Item value="Kernel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Model.JobGroup">
+      <Item value="Equals`0" priority="0" />
+      <Item value="Name" priority="2" />
+      <Item value="ActivityStatus" priority="0" />
+      <Item value="CanStart" priority="0" />
+      <Item value="CanPause" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Model.Job">
+      <Item value="Name" priority="0" />
+      <Item value="JobGroup" priority="1" />
+      <Item value="ActivityStatus" priority="0" />
+      <Item value="CanExecuteNow" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.ITrigger">
+      <Item value="Key" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Model.Trigger">
+      <Item value="CanStart" priority="0" />
+      <Item value="CanPause" priority="0" />
+      <Item value="TriggerGroup" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Quartz.Management.Shared.ETriggerActivityStatus">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Quartz.Management.Shared.ESchedulerStatus">
+      <Item value="Ready" priority="0" />
+      <Item value="Started" priority="1" />
+      <Item value="Empty" priority="0" />
+      <Item value="Shutdown" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Model.Scheduler">
+      <Item value="SchedulerStatus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Quartz.Management.Shared.EJobGroupActivityStatus">
+      <Item value="Mixed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Presentation.Mvc.WcfServiceLayer.SchedulerReadFacadeServiceClient">
+      <Item value="ReadOverviewData`0" priority="0" />
+      <Item value="ReadJobDetail`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Quartz.Management.Domain.Model.TriggerGroup">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D7F4D5C3-0F90-4514-A962-0C12D5A7C4EC/f:SchedulerReadService.svc" caret="0" fromTop="0" />
+      <File id="45502CB1-FD5F-4862-A739-1BB15374993D/d:Services/f:SchedulerReadFacadeService.cs" caret="956" fromTop="10" />
+      <File id="D7F4D5C3-0F90-4514-A962-0C12D5A7C4EC/f:FacadeServiceModule.cs" caret="0" fromTop="0" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Repositories/f:ISchedulerRepository.cs" caret="160" fromTop="4" />
+      <File id="49BFACC3-D8BF-4AC7-840D-FD2C5C225067/f:Program.cs" caret="1044" fromTop="24" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:TriggerGroup.cs" caret="153" fromTop="7" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/f:packages.config" caret="0" fromTop="0" />
+      <File id="A5D5A6EA-661F-4C92-A583-47978BC4D1C7/f:ESchedulerStatus.cs" caret="148" fromTop="7" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Scheduler.cs" caret="1042" fromTop="8" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:SchedulerDto.cs" caret="1266" fromTop="20" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Trigger.cs" caret="1383" fromTop="25" />
+      <File id="A5D5A6EA-661F-4C92-A583-47978BC4D1C7/f:ETriggerActivityStatus.cs" caret="138" fromTop="6" />
+      <File id="A5D5A6EA-661F-4C92-A583-47978BC4D1C7/f:EJobGroupActivityStatus.cs" caret="140" fromTop="6" />
+      <File id="A5D5A6EA-661F-4C92-A583-47978BC4D1C7/f:EJobActivityStatus.cs" caret="59" fromTop="1" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:JobGroup.cs" caret="1744" fromTop="32" />
+      <File id="6419D479-6A26-458D-82BB-BE34B71AD8CC/d:Model/f:Job.cs" caret="3447" fromTop="8" />
+      <File id="7CABFAFA-93B0-4602-96F9-48FF782F7819/d:Repositories/f:FakeSchedulerRepository.cs" caret="1822" fromTop="1" />
+      <File id="CBD77054-655C-422E-9168-5B7BE6C3D002/d:Model/f:JobTest.cs" caret="214" fromTop="8" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/f:Global.asax.cs" caret="444" fromTop="13" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:JobDto.cs" caret="582" fromTop="31" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:JobGroupDto.cs" caret="0" fromTop="0" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:TriggerDto.cs" caret="321" fromTop="17" />
+      <File id="FAF1F37A-356E-49A9-A550-5CCB3B77565A/d:Services/f:SchedulerReadService.cs" caret="6914" fromTop="8" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Detail.cshtml" caret="8972" fromTop="0" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Shared/d:DisplayTemplates/f:DateTime.cshtml" caret="114" fromTop="7" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Controllers/f:SchedulerController.cs" caret="370" fromTop="11" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Content/f:Main.css" caret="5016" fromTop="8" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Home/f:Index.cshtml" caret="327" fromTop="14" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="5498" fromTop="19" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Shared/f:_Layout.cshtml" caret="1470" fromTop="33" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Detail.cshtml" caret="11781" fromTop="33" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Controllers/f:SchedulerController.cs" caret="576" fromTop="19" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/f:Global.asax.cs" caret="1183" fromTop="32" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/f:Global.asax.cs" caret="1017" fromTop="29" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:JobDto.cs" caret="524" fromTop="27" />
+      <File id="FAF1F37A-356E-49A9-A550-5CCB3B77565A/d:Services/f:SchedulerReadService.cs" caret="2477" fromTop="24" />
+      <File id="FAF1F37A-356E-49A9-A550-5CCB3B77565A/d:Services/f:SchedulerReadService.cs" caret="6573" fromTop="33" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="5471" fromTop="23" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="4620" fromTop="22" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="4349" fromTop="17" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="2876" fromTop="21" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="4214" fromTop="15" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="3396" fromTop="3" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="4507" fromTop="25" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="9297" fromTop="22" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="8923" fromTop="19" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="9239" fromTop="23" />
+      <File id="442F9F74-FE03-4145-B00B-74C6FF6EED76/d:Model/f:TriggerDto.cs" caret="340" fromTop="17" />
+      <File id="FAF1F37A-356E-49A9-A550-5CCB3B77565A/d:Services/f:SchedulerReadService.cs" caret="3456" fromTop="6" />
+      <File id="FAF1F37A-356E-49A9-A550-5CCB3B77565A/d:Services/f:SchedulerReadService.cs" caret="7498" fromTop="21" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="2397" fromTop="17" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="2639" fromTop="21" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Detail.cshtml" caret="3220" fromTop="33" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Detail.cshtml" caret="4799" fromTop="33" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Detail.cshtml" caret="9274" fromTop="26" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Home/f:Index.cshtml" caret="62" fromTop="4" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Home/f:Index.cshtml" caret="247" fromTop="11" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Shared/d:DisplayTemplates/f:DateTime.cshtml" caret="114" fromTop="7" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="717" fromTop="23" />
+      <File id="9054AB7E-5834-4A97-8C1C-B8DCA80E0D6F/d:Views/d:Scheduler/f:Overview.cshtml" caret="96" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

@@ -1,0 +1,32 @@
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Infrastructure.Wcf.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Infrastructure.Wcf.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Ninject.Extensions.Wcf.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Application.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Domain.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Dto.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Application.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Domain.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Dto.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Ninject.Extensions.Wcf.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Ninject.Extensions.Wcf.xml
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\obj\Debug\Quartz.Management.Infrastructure.Wcf.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\obj\Debug\Quartz.Management.Infrastructure.Wcf.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Infrastructure.Wcf.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Infrastructure.Wcf.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Ninject.Extensions.Wcf.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Application.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Domain.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Dto.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Application.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Domain.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Dto.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Ninject.Extensions.Wcf.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Ninject.Extensions.Wcf.xml
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\obj\Debug\Quartz.Management.Infrastructure.Wcf.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\obj\Debug\Quartz.Management.Infrastructure.Wcf.pdb
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Shared.dll
+C:\_Private\Projects\Team4Talent\DDS\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Shared.pdb
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Shared.dll
+C:\_Development\T4T\WorkShops\Dwight's Development Sessions\Session 01\src\Quartz.Management.Infrastructure.Wcf\bin\Debug\Quartz.Management.Shared.pdb
